@@ -48,8 +48,17 @@ let resultado = computed(() => {
 </template>
 
 <style scoped>
+body {
+    background-color: #F5F5F5;
+}
+
+
 h1, input, select {
     text-align: center;
+}
+
+label {
+    margin-left: 1rem;
 }
 
 div.calculator__container {
@@ -57,7 +66,8 @@ div.calculator__container {
     text-align: center;
     background: #F7F5F3;
     width: 50%;
-    border-radius: 8px;
+    border-radius: 16px;
+    box-shadow: 0px 1px 3px 1px silver;
 }
 
 .numbers__container, .mode__selector, .result{
